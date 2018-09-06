@@ -6,7 +6,7 @@ CognateSet クラスは、お互いの共通部分を持たない複数の集合
 
 追加した集合と格納している集合に共通の要素がある場合は、それらの集合を1つに結合します。これにより、CognateSet インスタンスが持つ集合同士が共通要素を持たないことを保証します。
 
-CognateSet はほかにも集合を削徐したり再編したりするメソッドを備えています。現在のところ、和 (union)、積 (intersection)、差 (difference)、対称差 (symmetric difference)といった数学的な演算はサポートしていません。
+CognateSet はほかにも集合を削徐したり分割したりするメソッドを備えています。現在のところ、和 (union)、積 (intersection)、差 (difference)、対称差 (symmetric difference)といった数学的な演算はサポートしていません。
 
 ## 対応する言語バージョン ##
 - Python 3.3以上
