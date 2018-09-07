@@ -246,5 +246,5 @@ class CognateSet():
         return self.copy()
         
     @property
-    def ncogs(self):
-        return len(self.__sets)
+    def nelems(self):
+        return len(self.__mapping)
