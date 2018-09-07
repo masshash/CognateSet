@@ -113,23 +113,23 @@ CognateSet({'A', 'B'}, {1, 2})
 ```python
 >>> cs
 CognateSet({1, 2}, {3, 4})
->>> for e in cs:
-...     print(e)
+>>> for cognate in cs:    # cognate には set 型が渡されます。
+...     print(cognate)
+...
+{1, 2}
+{3, 4}
+```
+elements() を使えば、全集合の要素をイテレートできます。
+```python
+>>> for element in cs.elements():
+...     print(element)
 ...
 1
 2
 3
 4
 ```
-cognates() を使えば、集合をイテレートできます。
-```python
->>> for cognate in cs.cognates():    # cognate には set 型が渡されます。
-...     print(cognate)
-...
-{1, 2}
-{3, 4}
-```
-cognates() は集合の新しいビューを返します。詳しくは Wiki を参照してください（現在作成中）。
+elements() は、全集合の要素のビューを返します。詳しくは Wiki を参照してください（現在作成中）。
 
 ## その他のメソッド ##
 その他のメソッドと詳しい実装は Wiki を参照してください（現在作成中）。
