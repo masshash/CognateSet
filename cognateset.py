@@ -220,7 +220,7 @@ class CognateSet():
         return 'CognateSet()'
 
     def __len__(self):
-        return len(self.__mapping)
+        return len(self.__sets)
 
     def __contains__(self, item):
         return item in self.__mapping
