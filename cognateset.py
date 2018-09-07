@@ -210,7 +210,8 @@ class CognateSet():
         self.__sets.clear()
 
     def __iter__(self):
-        yield from self.__mapping
+        for cognate in self.__sets:
+            yield cognate.copy()
 
     def __repr__(self):
         if self:
