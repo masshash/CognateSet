@@ -1,7 +1,7 @@
 # Copyright (c) 2018 Masashi Takahashi
 # This software is released under the MIT License.
 
-# cognateset.py version 1.0.0
+# cognateset.py version 1.0.1
 
 __all__ = ['CognateSet']
 
