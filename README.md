@@ -9,7 +9,7 @@ CognateSet は、お互いの共通部分を持たない複数の集合を格納
 CognateSet はほかにも集合を削徐したり分割したりするメソッドを備えています。現在のところ、和 (union)、積 (intersection)、差 (difference)、対称差 (symmetric difference)といった数学的な演算はサポートしていません。
 
 ## 対応する言語バージョン ##
-- Python 3.3以上
+- Python 3.3+
 
 ## モジュールの取得 ##
 以下のコマンドでダウンロード。
