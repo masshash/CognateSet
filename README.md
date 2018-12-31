@@ -119,7 +119,7 @@ CognateSet({1, 2}, {3, 4})
 {1, 2}
 {3, 4}
 ```
-**elements()** を使えば、全集合の要素をイテレートできます。
+**elements()** を使えば、全集合の要素をフラットにイテレートできます。
 ```python
 >>> for element in cs.elements():
 ...     print(element)
