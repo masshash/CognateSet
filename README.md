@@ -78,7 +78,7 @@ CognateSet({1, 2}, {3, 4})
 >>> cs
 CognateSet({1, 2})
 ```
-また、**delelem(elem)** メソッドを使用することで、elem に一致する要素のみ削除できます。
+また、**delelem(elem)** メソッドを使用することで、elem に一致する要素を削除できます。
 ```python
 >>> cs
 CognateSet({1, 2}, {3, 4})
@@ -107,7 +107,7 @@ CognateSet({1, 2, 'A', 'B'})
 >>> cs
 CognateSet({'A', 'B'}, {1, 2})
 ```
-このメソッドは、集合から iterable が持つ要素と等しい要素を削除します。そして iterable を追加します。
+このメソッドは、格納している集合から iterable が持つ要素と等しい要素を取り除きます。そして iterable を追加します。
 
 ### イテレーション ###
 ```python
@@ -119,7 +119,7 @@ CognateSet({1, 2}, {3, 4})
 {1, 2}
 {3, 4}
 ```
-elements() を使えば、全集合の要素をイテレートできます。
+**elements()** を使えば、全集合の要素をイテレートできます。
 ```python
 >>> for element in cs.elements():
 ...     print(element)
